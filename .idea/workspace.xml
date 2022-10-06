@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="910a5f3f-d00e-4c25-ac8d-284f3f91e623" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.ebextensions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildpsec.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/controllers/DatabaseTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/controllers/DatabaseTestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/social-media-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/social-media-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.revature.SocialMediaApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.revature.SocialMediaApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/controllers/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/controllers/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.revature/social-media/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.revature/social-media/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/SocialMediaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/SocialMediaApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/advice/AuthAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/advice/AuthAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/advice/RestExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/advice/RestExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/annotations/AuthRestriction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/annotations/AuthRestriction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/controllers/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/controllers/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/controllers/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/controllers/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/dtos/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/dtos/LoginRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/dtos/RegisterRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/dtos/RegisterRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/exceptions/NotLoggedInException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/exceptions/NotLoggedInException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/models/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/models/Post.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/repositories/PostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/repositories/PostRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/repositories/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/services/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/services/AuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/services/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/services/PostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/services/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/revature/SocialMediaApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/revature/SocialMediaApplicationTests.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML Properties File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2FeI0Xwny7cID1nIHdoKaSDJyDQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Revature/Projects/GroupProject/Social Media Project Repo/Frenz-Back-End",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "ce67d70bf82195f7f8543c35e39ff34f"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SocialMediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="social-media" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.revature.SocialMediaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="910a5f3f-d00e-4c25-ac8d-284f3f91e623" name="Changes" comment="" />
+      <created>1664845902200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664845902200</updated>
+      <workItem from="1664845904485" duration="456000" />
+      <workItem from="1664915488559" duration="286000" />
+      <workItem from="1664915800396" duration="28000" />
+      <workItem from="1664916009061" duration="132000" />
+      <workItem from="1664994201886" duration="2520000" />
+      <workItem from="1665004098170" duration="3129000" />
+      <workItem from="1665019587203" duration="1564000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
