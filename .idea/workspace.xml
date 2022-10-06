@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="910a5f3f-d00e-4c25-ac8d-284f3f91e623" name="Changes" comment="" />
+    <list default="true" id="910a5f3f-d00e-4c25-ac8d-284f3f91e623" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/controllers/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/SocialMediaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/SocialMediaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/controllers/DatabaseTestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/SocialMediaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/SocialMediaApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/controllers/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/controllers/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/controllers/DatabaseTestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/controllers/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/controllers/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,14 +69,44 @@
     &quot;spring.configuration.checksum&quot;: &quot;ce67d70bf82195f7f8543c35e39ff34f&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.SocialMediaApplication">
+    <configuration name="Maven" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="SocialMediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="social-media" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.revature.SocialMediaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Maven.Maven" />
+      <item itemvalue="Spring Boot.SocialMediaApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,6 +125,9 @@
       <workItem from="1665019587203" duration="4465000" />
       <workItem from="1665019587203" duration="1564000" />
       <workItem from="1665019587203" duration="4164000" />
+      <workItem from="1665055112785" duration="2174000" />
+      <workItem from="1665065795390" duration="2590000" />
+      <workItem from="1665069803486" duration="979000" />
     </task>
     <servers />
   </component>
