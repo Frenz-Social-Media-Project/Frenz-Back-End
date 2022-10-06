@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "http://localhost:5000", allowCredentials = "true")
+@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
 public class AuthController {
 
     private final AuthService authService;
@@ -44,13 +44,11 @@ public class AuthController {
 
     @PostMapping("/register")
     public ResponseEntity<User> register(@RequestBody RegisterRequest registerRequest) {
-        User created = new User(0,
+        User created = new User(
                 registerRequest.getEmail(),
                 registerRequest.getPassword(),
                 registerRequest.getFirstName(),
-                registerRequest.getLastName(),
-                registerRequest.getImageUrl(),
-                registerRequest.getPosts());
+                registerRequest.getLastName());
         return ResponseEntity.status(HttpStatus.CREATED).body(authService.register(created));
     }
 }

@@ -30,6 +30,7 @@ public class Post {
 
 	@OneToMany(cascade = CascadeType.ALL)
 	private List<Post> comments;
+
 	@ManyToOne
 	private User author;
 }
