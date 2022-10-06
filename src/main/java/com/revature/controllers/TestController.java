@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/")
-@CrossOrigin(origins = "http://localhost:5000", allowCredentials = "true")
+@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
 public class TestController {
 
     @GetMapping()

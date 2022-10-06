@@ -24,6 +24,11 @@ public class User {
 
     private String imageUrl;
 
-    @OneToMany(cascade = CascadeType.ALL)
-    private List<Post> posts;
+    public User(String email, String password, String firstName, String lastName){
+        this.email      = email;
+        this.password   = password;
+        this.firstName  = firstName;
+        this.lastName   = lastName;
+    }
+
 }
