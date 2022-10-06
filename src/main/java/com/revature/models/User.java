@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Data
 @Entity
@@ -20,4 +21,9 @@ public class User {
     private String password;
     private String firstName;
     private String lastName;
+
+    private String imageUrl;
+
+    @OneToMany(cascade = CascadeType.ALL)
+    private List<Post> posts;
 }
