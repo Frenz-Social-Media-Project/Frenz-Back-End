@@ -5,7 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="910a5f3f-d00e-4c25-ac8d-284f3f91e623" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.ebextensions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildpsec.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/controllers/DatabaseTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/controllers/DatabaseTestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/social-media-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/social-media-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.revature.SocialMediaApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.revature.SocialMediaApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/controllers/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/controllers/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.revature/social-media/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.revature/social-media/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/SocialMediaApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/SocialMediaApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/advice/AuthAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/advice/AuthAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/advice/RestExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/advice/RestExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/annotations/AuthRestriction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/annotations/AuthRestriction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/controllers/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/controllers/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/controllers/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/controllers/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/dtos/LoginRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/dtos/LoginRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/dtos/RegisterRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/dtos/RegisterRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/exceptions/NotLoggedInException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/exceptions/NotLoggedInException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/models/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/models/Post.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/repositories/PostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/repositories/PostRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/repositories/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/services/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/services/AuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/services/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/services/PostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/services/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/revature/SocialMediaApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/revature/SocialMediaApplicationTests.class" afterDir="false" />
+>>>>>>> ccdb81615a9d86d449faa009e7a4e4698f351828
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +131,11 @@
       <workItem from="1664916009061" duration="132000" />
       <workItem from="1664994201886" duration="2520000" />
       <workItem from="1665004098170" duration="3129000" />
+<<<<<<< HEAD
       <workItem from="1665019587203" duration="4465000" />
+=======
+      <workItem from="1665019587203" duration="1564000" />
+>>>>>>> ccdb81615a9d86d449faa009e7a4e4698f351828
     </task>
     <servers />
   </component>
