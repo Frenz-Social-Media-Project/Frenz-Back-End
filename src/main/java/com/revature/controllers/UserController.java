@@ -21,25 +21,15 @@ public class UserController {
         this.userService = userService;
     }
 
-    @GetMapping("/findByKeyword/{keyword}")
+    @GetMapping("/search/{keyword}")
     public List<User> getByKeyword(@PathVariable String keyword) {
         Pattern pattern = Pattern.compile("\\s");
         Matcher matcher = pattern.matcher(keyword);
 
         if(matcher.find()){
-
             String[] fullName = keyword.split("\\s+");
-            System.err.println(fullName[0] + " " + fullName[1]);
             return userService.findByFullName(fullName[0], fullName[1]);
         }
-        System.err.println(keyword);
         return userService.findByName(keyword);
-
-
     }
-
-//    @GetMapping("/findByFullName/{firstName}/{lastName}")
-//    public List<User> getByFullName(@PathVariable String firstName, @PathVariable String lastName){
-//        return userService.findByFullName(firstName, lastName);
-//    }
 }
