@@ -26,6 +26,22 @@ public class UserService {
         return userRepository.save(user);
     }
 
+    public User getByEmail(String email) {
+        return userRepository.findByEmail(email);
+    }
+
+    public User updateUser(User user) {
+        return userRepository.save(user);
+    }
+
+    public boolean emailIsTaken(String email) {
+        Optional<User> current = Optional.ofNullable(getByEmail(email));
+        if (!current.isPresent())
+            return false;
+        else
+            return true;
+    }
+    
     public List<User> findByName(String keyword) {
         if(!(userRepository.findByFirstNameContaining(keyword).isEmpty())) {
             return userRepository.findByFirstNameContaining(keyword);
