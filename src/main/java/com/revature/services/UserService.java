@@ -31,9 +31,7 @@ public class UserService {
         return userRepository.findById(id).get();
     }
 
-    public User updateUser(User user) {
-        return userRepository.save(user);
-    }
+    public User updateUser(User user) {return userRepository.save(user); }
 
     public boolean emailIsTaken(String email) {
         Optional<User> current = Optional.ofNullable(getByEmail(email));
