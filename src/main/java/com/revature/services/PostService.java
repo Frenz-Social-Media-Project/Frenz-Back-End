@@ -1,6 +1,7 @@
 package com.revature.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
@@ -20,7 +21,20 @@ public class PostService {
 		return this.postRepository.findAll();
 	}
 
+	public List<Post> getAllByAuthorId(int id){
+		Optional<List<Post>> posts = this.postRepository.findAllByAuthor_Id(id);
+		if(!posts.isPresent()){
+			return null;
+		}else{
+			return posts.get();
+		}
+	}
+
 	public Post upsert(Post post) {
 		return this.postRepository.save(post);
+	}
+
+	public void deleteUserPost(Post post){
+		this.postRepository.delete(post);
 	}
 }

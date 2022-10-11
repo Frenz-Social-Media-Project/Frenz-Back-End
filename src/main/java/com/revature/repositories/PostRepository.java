@@ -10,4 +10,5 @@ import java.util.Optional;
 public interface PostRepository extends JpaRepository<Post, Integer>{
 
     Optional<List<Post>> findAllByAuthor_Id(int id);
+
 }
