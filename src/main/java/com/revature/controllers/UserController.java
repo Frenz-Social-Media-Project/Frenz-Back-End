@@ -22,19 +22,21 @@ public class UserController {
         }
         else {
             User currentUserToBeUpdated = currentUser.get();
+            if (user.getEmail() != null) {
+                if ((userService.emailIsTaken(user.getEmail())) &&!(user.getEmail().equals(currentUserToBeUpdated.getEmail()))) {
+                    System.out.println("This email is already exist");
+                    return null;
+                } else {
+                    currentUserToBeUpdated.setEmail(user.getEmail());
+                }
+            }
             if (user.getFirstName() != null) {
                 currentUserToBeUpdated.setFirstName(user.getFirstName());
             }
             if (user.getLastName() != null) {
                 currentUserToBeUpdated.setLastName(user.getLastName());
             }
-            if (user.getEmail() != null) {
-                if ((userService.emailIsTaken(user.getEmail())) &&!(user.getEmail().equals(currentUserToBeUpdated.getEmail()))) {
-                    System.out.println("This email is already exist");
-                } else {
-                    currentUserToBeUpdated.setEmail(user.getEmail());
-                }
-            }
+
             return this.userService.updateUser(currentUserToBeUpdated);
         }
     }
