@@ -27,13 +27,13 @@ public class PostController {
         this.postService = postService;
     }
 
-    @Authorized
+    //@Authorized
     @GetMapping
     public ResponseEntity<List<Post>> getAllPosts() {
     	return ResponseEntity.ok(this.postService.getAll());
     }
 
-    @Authorized
+   // @Authorized
     @PutMapping
     public ResponseEntity<Post> upsertPost(@RequestBody Post post) {
     	return ResponseEntity.ok(this.postService.upsert(post));

@@ -14,6 +14,13 @@ public class UserController {
         this.userService = userService;
     }
 
+    @GetMapping("/view/{id}")
+    public  User getUserById(@PathVariable("id") int id){
+        Optional<User> currentUserOptional = Optional.ofNullable(userService.getById(id));
+        if (!currentUserOptional.isPresent()) return null;
+        else return currentUserOptional.get();
+    }
+
     @PutMapping("/update/{id}")
     public User update(@PathVariable("id") int id, @RequestBody User user) {
         Optional<User> currentUser = Optional.ofNullable(this.userService.getById(id));
