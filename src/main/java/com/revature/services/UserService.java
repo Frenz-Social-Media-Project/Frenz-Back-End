@@ -32,6 +32,14 @@ public class UserService {
         return userRepository.findByEmail(email);
     }
 
+    public User getById(int id){
+        Optional<User> userOptional = this.userRepository.findById(id);
+        if(!userOptional.isPresent()){
+            return null;
+        }
+        return userOptional.get();
+    }
+
     public User updateUser(User user) {
         return userRepository.save(user);
     }

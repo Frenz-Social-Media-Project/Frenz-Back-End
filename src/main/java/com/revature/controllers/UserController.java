@@ -46,6 +46,11 @@ public class UserController {
         return userService.findByName(keyword);
     }
 
+    @GetMapping("/search/{id}")
+    public User getUserById(@PathVariable("id") int id){
+        return this.userService.getById(id);
+    }
+
     @GetMapping("/posts/{id}")
     public List<Post> getAllUserPosts(@PathVariable("id") int id){
         return userService.findAllUserPosts(id);
