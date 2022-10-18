@@ -1,6 +1,7 @@
 package com.revature.controllers;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -18,7 +19,7 @@ import com.revature.services.PostService;
 
 @RestController
 @RequestMapping("/post")
-@CrossOrigin(origins = "http://localhost:5000", allowCredentials = "true")
+@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
 public class PostController {
 
 	private final PostService postService;
@@ -26,14 +27,14 @@ public class PostController {
     public PostController(PostService postService) {
         this.postService = postService;
     }
-    
-    @Authorized
+
+    //@Authorized
     @GetMapping
     public ResponseEntity<List<Post>> getAllPosts() {
     	return ResponseEntity.ok(this.postService.getAll());
     }
-    
-    @Authorized
+
+   // @Authorized
     @PutMapping
     public ResponseEntity<Post> upsertPost(@RequestBody Post post) {
     	return ResponseEntity.ok(this.postService.upsert(post));

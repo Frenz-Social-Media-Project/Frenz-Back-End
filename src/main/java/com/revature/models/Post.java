@@ -27,8 +27,11 @@ public class Post {
     private int id;
 	private String text;
 	private String imageUrl;
+	private String youtubeUrl;
+
 	@OneToMany(cascade = CascadeType.ALL)
 	private List<Post> comments;
+
 	@ManyToOne
 	private User author;
 }
