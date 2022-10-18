@@ -10,7 +10,6 @@ import java.util.Optional;
 
 @Service
 public class UserService {
-
     private final UserRepository userRepository;
     private final PostService postService;
 
@@ -30,7 +29,7 @@ public class UserService {
     public User getByEmail(String email) {
         return userRepository.findByEmail(email);
     }
-    
+
     public User updateUser(User user) {return userRepository.save(user); }
 
     public boolean emailIsTaken(String email) {
@@ -41,7 +40,6 @@ public class UserService {
             return true;
     }
 
-}
     public User getById(int id){
         Optional<User> userOptional = this.userRepository.findById(id);
         if(!userOptional.isPresent()){
@@ -50,18 +48,6 @@ public class UserService {
         return userOptional.get();
     }
 
-    public User updateUser(User user) {
-        return userRepository.save(user);
-    }
-
-    public boolean emailIsTaken(String email) {
-        Optional<User> current = Optional.ofNullable(getByEmail(email));
-        if (!current.isPresent())
-            return false;
-        else
-            return true;
-    }
-    
     public List<User> findByName(String keyword) {
         if(!(userRepository.findByFirstNameContaining(keyword).isEmpty())) {
             return userRepository.findByFirstNameContaining(keyword);
