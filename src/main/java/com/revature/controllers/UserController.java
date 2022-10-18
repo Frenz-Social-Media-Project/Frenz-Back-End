@@ -46,7 +46,7 @@ public class UserController {
         return userService.findByName(keyword);
     }
 
-    @GetMapping("/search/{id}")
+    @GetMapping("/searchById/{id}")
     public User getUserById(@PathVariable("id") int id){
         return this.userService.getById(id);
     }
