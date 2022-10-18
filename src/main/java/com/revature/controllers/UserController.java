@@ -12,9 +12,9 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/users")
-@CrossOrigin("*")
 public class UserController {
     public UserService userService;
 

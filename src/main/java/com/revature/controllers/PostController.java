@@ -17,9 +17,9 @@ import com.revature.annotations.Authorized;
 import com.revature.models.Post;
 import com.revature.services.PostService;
 
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/post")
-@CrossOrigin("*")
 public class PostController {
 
 	private final PostService postService;
