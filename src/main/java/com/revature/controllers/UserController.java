@@ -43,6 +43,9 @@ public class UserController {
             if (user.getLastName() != null) {
                 currentUserToBeUpdated.setLastName(user.getLastName());
             }
+            if (user.getImageUrl() != null) {
+                currentUserToBeUpdated.setImageUrl(user.getImageUrl());
+            }
 
             return this.userService.updateUser(currentUserToBeUpdated);
         }
