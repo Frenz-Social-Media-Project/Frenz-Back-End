@@ -10,8 +10,7 @@ import org.springframework.web.bind.annotation.*;
 public class TestController {
 
     @GetMapping()
-    public ResponseEntity getServiceName(){
-        ResponseEntity responseEntity = new ResponseEntity(HttpStatus.OK);
-        return responseEntity;
+    public String hello(){
+        return "hello from bahia";
     }
 }
