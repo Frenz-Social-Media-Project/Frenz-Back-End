@@ -13,9 +13,6 @@ import org.springframework.scheduling.annotation.Scheduled;
 //@EnableScheduling
 public class SocialMediaApplication {
 
-//	@Autowired
-//	private JdbcTemplate jdbcTemplate;
-
 	public static void main(String[] args) {
 		SpringApplication.run(SocialMediaApplication.class, args);
 	}
