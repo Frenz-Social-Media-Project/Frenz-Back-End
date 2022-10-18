@@ -27,11 +27,10 @@ public class UserController {
         Optional<User> currentUser = Optional.ofNullable(this.userService.getById(id));
         if (!currentUser.isPresent()) {
             return null;
-        }
-        else {
+        } else {
             User currentUserToBeUpdated = currentUser.get();
             if (user.getEmail() != null) {
-                if ((userService.emailIsTaken(user.getEmail())) &&!(user.getEmail().equals(currentUserToBeUpdated.getEmail()))) {
+                if ((userService.emailIsTaken(user.getEmail())) && !(user.getEmail().equals(currentUserToBeUpdated.getEmail()))) {
                     System.out.println("This email is already exist");
                     return null;
                 } else {
@@ -50,6 +49,7 @@ public class UserController {
 
             return this.userService.updateUser(currentUserToBeUpdated);
         }
+    }
 
     @GetMapping("/search/{keyword}")
     public List<User> getByKeyword(@PathVariable String keyword) {
