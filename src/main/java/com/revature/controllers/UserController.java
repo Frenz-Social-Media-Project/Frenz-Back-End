@@ -12,27 +12,44 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
 @RestController
 @RequestMapping("/users")
 @CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
 public class UserController {
-
     public UserService userService;
 
     public UserController(UserService userService) {
         this.userService = userService;
     }
 
-    @PostMapping("/update/{email}")
-    public User update(@PathVariable("email") String email, @RequestBody User user){
-        Optional<User> currentUser= Optional.ofNullable(this.userService.getByEmail(email));
-        if(!currentUser.isPresent()){
+    @PutMapping("/update/{id}")
+    public User update(@PathVariable("id") int id, @RequestBody User user) {
+        Optional<User> currentUser = Optional.ofNullable(this.userService.getById(id));
+        if (!currentUser.isPresent()) {
             return null;
         }
-        User current = currentUser.get();
-        return this.userService.updateUser(current);
-   }
+        else {
+            User currentUserToBeUpdated = currentUser.get();
+            if (user.getEmail() != null) {
+                if ((userService.emailIsTaken(user.getEmail())) &&!(user.getEmail().equals(currentUserToBeUpdated.getEmail()))) {
+                    System.out.println("This email is already exist");
+                    return null;
+                } else {
+                    currentUserToBeUpdated.setEmail(user.getEmail());
+                }
+            }
+            if (user.getFirstName() != null) {
+                currentUserToBeUpdated.setFirstName(user.getFirstName());
+            }
+            if (user.getLastName() != null) {
+                currentUserToBeUpdated.setLastName(user.getLastName());
+            }
+            if (user.getImageUrl() != null) {
+                currentUserToBeUpdated.setImageUrl(user.getImageUrl());
+            }
+
+            return this.userService.updateUser(currentUserToBeUpdated);
+        }
 
     @GetMapping("/search/{keyword}")
     public List<User> getByKeyword(@PathVariable String keyword) {
